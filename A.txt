@@ -1,1 +1,0 @@
-('[FBAN/FB4A;FBAV/'+str(fbav)+';FBPN/com.facebook.katana;FBLC/bn_BD;FBBV/'+str(random.randint(111111111,999999999))+'[FBAN/FB4A;FBAV/47.0.0.29.91;FBBV/16686750;[FBAN/FB4A;FBAV/47.0.0.29.91;FBLC/en_US;FBBV/16686750;FBCR/Telenor;FBMF/Realme;FBBD/Realme;FBPN/com.facebook.katana;FBDV/RMX3951;FBSV/14;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.0,width=1228,height=1129]')
