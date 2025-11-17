@@ -1,8 +1,17 @@
+import platform
+import sys
 
+arch = platform.machine()
 
-import HExX
+if arch in ["aarch64", "arm64", "armv8l"]:
+    import HExX_64 as HExX
+elif arch in ["armv7l", "arm", "armeabi", "armeabi-v7a"]:
+    import HExX_32 as HExX
+else:
+    print("Architecture not supported:", arch)
+    sys.exit()
 
-if hasattr(HExX, 'main'):
+if hasattr(HExX, "main"):
     HExX.main()
 else:
-    print("There is an error contact developer.")
+    print("No main() found in module.")
