@@ -1,12 +1,12 @@
-import platform
+importorm
 import sys
 
 arch = platform.machine()
 
 if arch in ["aarch64", "arm64", "armv8l"]:
-    import HExX_64 as HExX
+    import hexx_64 as HExX
 elif arch in ["armv7l", "arm", "armeabi", "armeabi-v7a"]:
-    import HExX_32 as HExX
+    import hexx_32 as HExX
 else:
     print("Architecture not supported:", arch)
     sys.exit()
