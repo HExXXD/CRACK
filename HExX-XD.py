@@ -1,4 +1,4 @@
-importorm
+import platform 
 import sys
 
 arch = platform.machine()
