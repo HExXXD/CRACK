@@ -8,7 +8,7 @@ hexx = platform.architecture()[0]
 
 if hexx == '64bit':
     print(f' {rad}[{white}◆{rad}] {green}Your Device is 64bit')
-    import hexx_64 as HExX
+    import hexx_32 as HExX
 elif hexx == '32bit':
     print(f' {rad}[{white}◆{rad}] {green}Your Device is 32bit')
     import hexx_32 as HExX
